@@ -1,0 +1,255 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 150%;
+	font-weight: 400;
+	color: #565655;
+}
+
+h1 {
+	color: #0f5fa9;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+h2 {
+	color: #30302e;
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+
+p {
+	margin-bottom: 1rem;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.btn {
+	background: #ffdf00;
+	color: #0f5fa9;
+	text-transform: uppercase;
+	padding: 10px 30px 7px;
+	text-align: center;
+	display: inline-block;
+	float: right;
+	margin-top: 1rem;
+}
+
+header {
+	background: #0f5fa9;
+	border-bottom: 7px solid #ffdf00;
+	color: #fff;
+}
+
+header h1 {
+	float: left;
+	margin: 0;
+	padding: 1rem 0;
+}
+
+header img {
+	height: 37px;
+}
+
+nav {
+	float: right;
+}
+
+nav ul li {
+	display: block;
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+	text-transform: uppercase;
+	padding: 1.5rem 1rem;
+}
+
+nav ul li a:hover {
+	/* TBD */
+}
+
+nav ul li a.activePage {
+	background: #132f98;
+}
+
+.hero__image {
+	background: #0f5fa9;
+	color: #fff;
+	position: relative;
+	height: calc(100vh - 77px);
+}
+
+.hero__image h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 101px;
+	line-height: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, calc(-50% - 77px));
+}
+
+.hero__image ul {
+	list-style-type: none;
+	font-size: 20px;
+	line-height: 130%;
+}
+
+.hero__image .grid__row {
+	position: absolute;
+	bottom: 0;
+	width: 71.25rem;
+}
+
+.hero__image .column-center {
+	margin-top: 4.5rem;
+}
+
+/* .hero__image .grid__column-bp1-4{
+	padding: 0;
+	position: absolute;
+	bottom: 0;
+}
+
+.hero__image .column-left {
+	bottom: 20px;
+}
+
+
+
+.hero__image .column-right {
+	bottom: 20px;
+	text-align: right;
+	margin-left: 60px;
+	right: 0;
+} */
+
+.hero__image .fa {
+	font-size: 4rem;
+	color: #ffdf00;
+}
+
+main {
+	padding: 1.5rem 0;
+	background: #fff;
+}
+
+main:nth-child(odd) {
+	background: rgba(48,48,46,0.05);
+}
+
+main .bottom_text {
+	padding-top: 1rem;
+	border-top: 1px solid #babbbb;
+}
+
+main img{
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+footer {
+	background: #0f5fa9;
+	border-top: 7px solid #ffdf00;
+	color: #fff;
+}
+
+.footer__top {
+	padding-top: 30px;
+}
+
+.footer__top ul {
+	list-style-type: none;
+}
+
+.footer__top img {
+	width: 180px;
+}
+
+.footer__top .column-center {
+	text-align: center;
+}
+
+.footer__top .column-right {
+	text-align: right;
+}
+
+.footer__bottom {
+	font-size: 12px;
+	border-top: 1px solid #fff;
+	text-align: center;
+	padding: 30px;
+}
+
+/* CONCEPT PAGINA */
+
+main.main__concept {
+	background: #fff;
+}
+
+main.main__concept img {
+	width: 360px;
+	float: right;
+	margin-left: 1rem;
+}
+
+.main__concept .grid__column-bp1-12 {
+	margin-bottom: 15px;
+}
+
+.main__concept .grid__row .grid__column-bp1-12:nth-child(2) img {
+	float: left;
+	margin: 0;
+	margin-right: 1rem;
+}
+
+/* LOGO PAGINA */
+
+/* KLEUREN PAGINA */
+
+.main__kleuren ul{
+	list-style-type: none;
+}
+
+.main__kleuren ul.kleurenruimtelijst{
+	margin-left: 1.2rem;
+	list-style-type: disc;
+}
+
+.main__kleuren ul.kleurenruimtelijst li{
+	margin-bottom: 1rem;
+}
+
+/* TYPOGRAFIE PAGINA */
+
+.main__typografie .fontblock {
+	background: rgba(48,48,46,0.05);
+	padding: 2rem;
+}
+
+.main__typografie .fontblock.regular h2{
+	font-weight: 400;
+}
+
+.main__typografie .fontblock.bold h2,
+.main__typografie .fontblock.bold p{
+	font-weight: 700;
+}
+
+.main__typografie .fontblock.italic h2,
+.main__typografie .fontblock.italic p{
+	font-weight: 400;
+	font-style: italic;
+}
+
+.main__typografie ul {
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+}
