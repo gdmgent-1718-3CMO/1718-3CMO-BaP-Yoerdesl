@@ -37,7 +37,14 @@ a {
 	float: right;
 	margin-top: 1rem;
 }
-
+.btn:hover {
+    color: #FFFFFF;
+	background-color: #F7CE14
+}
+.btn:active {
+    color: #FFFFFF;
+	background-color: #F9B000
+}
 header {
 	background: #0f5fa9;
 	border-bottom: 7px solid #ffdf00;
@@ -70,11 +77,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	/* TBD */
+	background-color: #24318A;
 }
 
 nav ul li a.activePage {
-	background: #132f98;
+	background-color: #11265F;
 }
 
 .hero__image {
