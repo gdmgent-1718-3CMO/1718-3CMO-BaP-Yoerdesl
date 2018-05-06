@@ -39,11 +39,11 @@ a {
 }
 .btn:hover {
     color: #FFFFFF;
-	background-color: #F7CE14
+	background-color: #F7CE14;
 }
 .btn:active {
     color: #FFFFFF;
-	background-color: #F9B000
+	background-color: #F9B000;
 }
 header {
 	background: #0f5fa9;
